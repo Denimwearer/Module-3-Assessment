@@ -1,14 +1,19 @@
 console.log("hello world");
 
-
-
 function handleSubmit(evt) {
-	evt.preventDefault();
-	
-	console.log('form submit');
+  evt.preventDefault();
+
+  alert("form submit");
 }
 
+handleMouseOver = (e) => {
+  e.preventDefault();
 
-let form = document.querySelector('#contact');
+  alert("You so cold you're hot");
+};
 
-form.addEventListener('submit', handleSubmit);
+let form = document.querySelector("#contact");
+let image = document.querySelector("img");
+
+form.addEventListener("submit", handleSubmit);
+image.addEventListener("mouseover", handleMouseOver);

@@ -36,3 +36,46 @@ input {
 img {
 	max-width: 300px;
 }
+
+.profile-header {
+	text-align: center;
+}
+
+.container {
+	display: flex;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-container {
+	justify-content: center;
+}
+
+.skills-list {
+}
+.interest-list > ul {
+	position: relative;
+	right: 20px;
+}
+.career-list {
+
+}
+div {
+	/* border: 1px solid black; */
+	margin: 0px;
+}
+h2 {
+	text-align: center;
+}
+
+.button-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.colorBtn, .placeBtn, .ritualBtn {
+	background-color: yellow;
+	height: 50px;
+	border-radius: 25px;
+}
